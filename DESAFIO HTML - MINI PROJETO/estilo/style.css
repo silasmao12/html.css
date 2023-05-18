@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'carnivora_titulo';
+    src: url('../fontes/plantas.ttf');
+}
+
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+paleta{
+    color: rgb(1, 48, 1);
+    color: rgb(3, 83, 3);
+    color: rgb(5, 117, 5);
+    color: rgb(6, 163, 6);
+    color: rgb(16, 248, 16);
+    color: rgb(121, 247, 121);
+    color: rgb(197, 245, 197);
+    
+
+}
+
+p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 25px;
+
+}
+
+
+
+header{
+
+    background-image:url(../imagens/fundo.jpg);
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    padding:30px;
+ 
+ 
+}
+
+header h1{
+
+
+    margin:auto;
+    padding-bottom: 10px;
+    background-color: rgba(23, 53, 23, 0.459);
+    font-size: 80px;
+    font-family: 'carnivora_titulo';
+    color: rgb(255, 255, 255);
+    text-shadow: 10px 10px 3px rgb(0, 0, 0);
+   
+}
+
+
+header > h3{
+    color:white;
+    max-width: 400px;
+    margin:auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.479);
+    padding:15px;
+    
+}
+
+
+
+body{
+    background-color: rgb(2, 143, 2);
+}
+
+
+nav{
+    background-color:rgb(23, 53, 23);
+    text-align: center;  
+    padding-bottom: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.644);
+    padding-top:8px;
+ 
+    
+}
+
+nav > a{
+    color:rgb(53, 173, 53);
+    font-family: Oswald, sans-serif;
+    font-size: 15px;   
+    padding:10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+nav > a:hover{
+    color:black;
+    background-color:rgb(6, 163, 6);
+}
+
+
+
+
+main{
+
+   background-color: rgb(197, 245, 197);
+   font-family: Oswald, sans-serif;
+   min-width: 320px;
+   max-width: 900px;
+   margin:auto;
+   margin-bottom:15px;
+   padding:20px;
+   box-shadow: 0px 0px 20px rgba(1, 48, 1, 0.87);
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+  
+}
+
+article > img{
+
+    border:22px solid rgb(124, 187, 127);
+    border-radius: 40px;
+    border-color: transparent;
+    
+}
+
+
+
+main strong{
+    color: rgb(1, 48, 1);
+    font-weight: bold;
+    background-color:rgb(165, 206, 165);
+    padding:2px;
+}
+
+
+iframe{
+    width:100%;
+}
+
+article > h1{
+    text-align: center;
+    font-family: 'carnivora_titulo';
+    font-size: 60px;
+    color: rgb(1, 48, 1);
+}
+
+article > h2{
+    padding: 20px;
+    background-color:rgb(1, 48, 1);
+    text-align: center;
+    color:rgb(1, 48, 1);
+    font-family: 'carnivora_titulo', 'cursive';
+    font-size: 35px;
+    background-image: linear-gradient(to right,rgb(197, 245, 197),rgb(121, 247, 121),rgb(16, 248, 16),rgb(121, 247, 121),rgb(197, 245, 197));
+
+}
+
+
+aside{
+    background-color: rgb(121, 247, 121);
+    border-radius: 10px;
+}
+
+aside h2{
+    text-align: left;
+    padding:10px;
+    background-color:rgb(23, 53, 23) ;
+    height: 25px;
+    color:white;
+    font-size: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+aside ul{
+    padding-top:15px;
+    list-style-position: inside;
+    columns:2;
+}
+
+
+footer{  
+    background-color: rgb(23, 53, 23);
+    color:white;
+    margin-bottom:-20px;
+    
+}
+
+footer p{
+    text-align: center;
+}
+
+footer a {
+    font-weight: bold;
+    text-decoration: none;
+    color:rgb(197, 245, 197);
+    font-size: 18px;
+    
+}
+

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRouping tags</title>
+
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(2, 206, 2);
+
+        }
+        header{
+            background: rgb(2, 95, 2);
+            color: rgb(87, 240, 82);
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            color:rgb(145, 245, 145);
+            border-radius: 5px;
+            background-color: rgb(65, 150, 65);
+            margin:20px;
+        }
+        footer{
+            padding:40px;
+            background-color: black;
+            color:rgb(110, 255, 110);
+            font-size: 20px;
+            margin:30px;
+        }
+
+        article{
+            background-color: rgb(1, 34, 1);
+            padding: 20px;
+        }
+
+        article > aside{
+            background-color: rgb(1, 73, 1);
+        }
+
+        nav{
+            background-color: rgb(0, 255, 0);
+            box-shadow: 20px 20px 20px rgb(1, 63, 1);
+            
+        }
+
+        nav > a{
+            background: rgb(177, 252, 177);
+            color:black;
+            font-size: 25px;
+            margin-right: 40px;
+        }
+
+        footer > p{
+            margin:0px;
+           
+        }
+        #bola{
+            height: 100px;
+            width: 100px;
+            margin: 0px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 50px;    
+            text-align: center;   
+       }
+       #bola > p{
+        color:red;
+       }
+
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1> Cabeçalho do Site</h1>
+        <nav>
+
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+
+        </nav>
+
+    </header>
+
+    <main>
+     
+        <section id="noticias">
+            <p>TECNOLOGIA     POLITICA    ESPORTES</p>
+
+       </section>
+
+        <section id="asssuntos">
+            
+            <article>
+                <h2>noticia sobre o pedro</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quam nisi, dicta laboriosam, asperiores sed dolores repellat quod doloribus praesentium vero dolor architecto placeat pariatur ut saepe? Ex, eum sit!</p>
+                <aside>
+                    <p>Escrito por: Jose ferreira do joao</p>
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>desenvolvido por X
+            contato: 
+            pedro@gmail.com 
+            (16)3251-6639</p>
+        <div id="bola">
+            <p>AUTOR PEDRO</p>
+       </div>
+     </footer>
+    
+</body>
+</html>
